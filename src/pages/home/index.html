@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../../common/common.css">
+    <title>Quiz</title>
+</head>
+<body onload="setup()">
+       <main>
+        <img src="../../assets/images/finn.png" alt="">
+            <div class="container">
+                <div class="left">
+                    <div id="desc" class="desc">
+                        
+                    </div>
+                </div>
+    
+                <div class="right">
+                    <div onclick="responder(event)" class="box">Princesa</div>
+                    <div onclick="responder(event)" class="box">Princesa</div>
+                    <div onclick="responder(event)" class="box">Princesa</div>
+                    <div onclick="responder(event)" class="box">Princesa</div>
+                    <div onclick="responder(event)" class="box">Princesa</div>
+                
+                </div>
+            </div>
+            <div class="bottom">
+                <span onclick="avancar()" id="btn" class="btn hide">CONTINUAR</span>
+            </div>
+       </main>
+       <script src="./index.js"></script>
+</body>
+</html> 
